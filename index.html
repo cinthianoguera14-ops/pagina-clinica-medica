@@ -1,7 +1,5 @@
-
 <!DOCTYPE html>
 <html lang="es">
-    
 
 <head>
 
@@ -114,6 +112,8 @@
             <a href="#services">Servicios</a>
 
             <a href="#media">Multimedia</a>
+
+            <a href="#faq">Preguntas frecuentes</a>
 
             <a href="#location">Ubicación</a>
 
@@ -385,6 +385,7 @@
                         <i class="fa-solid fa-bone"></i>
                         Traumatología
                     </h3>
+
                     <p>
                         Rehabilitación funcional, tratamiento de lesiones
                         deportivas y fisioterapia integral.
@@ -424,6 +425,47 @@
                 Tu navegador no soporta el formato de video.
 
             </video>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         PREGUNTAS FRECUENTES
+    ========================== -->
+
+    <section class="faq-section" id="faq">
+
+        <h2 class="section-title">
+            Preguntas Frecuentes
+        </h2>
+
+        <p class="section-subtitle">
+            Encontrá respuestas a las consultas más frecuentes
+        </p>
+
+
+        <div class="faq-container">
+
+            <div id="faq-loading" class="faq-loading">
+
+                <i class="fa-solid fa-spinner fa-spin"></i>
+
+                Cargando preguntas frecuentes...
+
+            </div>
+
+
+            <div id="faq-list" class="faq-list"></div>
+
+
+            <div id="faq-error" class="faq-error">
+
+                No se pudieron cargar las preguntas frecuentes.
+                Intentá nuevamente más tarde.
+
+            </div>
 
         </div>
 
@@ -557,122 +599,134 @@
 
             <form id="formulario">
 
-    <div class="form-group">
+                <div class="form-group">
 
-        <label for="nombre">
-            <i class="fa-solid fa-user"></i>
-            Nombre y apellido
-        </label>
+                    <label for="nombre">
 
-        <input
-            type="text"
-            id="nombre"
-            placeholder="Ingresá tu nombre y apellido"
-            required
-        >
+                        <i class="fa-solid fa-user"></i>
 
-    </div>
+                        Nombre y apellido
 
+                    </label>
 
-    <div class="form-group">
+                    <input
+                        type="text"
+                        id="nombre"
+                        placeholder="Ingresá tu nombre y apellido"
+                        required
+                    >
 
-        <label for="email">
-            <i class="fa-solid fa-envelope"></i>
-            Correo electrónico
-        </label>
-
-        <input
-            type="email"
-            id="email"
-            placeholder="ejemplo@gmail.com"
-            required
-        >
-
-    </div>
+                </div>
 
 
-    <div class="form-group">
+                <div class="form-group">
 
-        <label for="telefono">
-            <i class="fa-solid fa-phone"></i>
-            Teléfono
-        </label>
+                    <label for="email">
 
-        <input
-            type="tel"
-            id="telefono"
-            placeholder="Ej. 2984 617668"
-            required
-        >
+                        <i class="fa-solid fa-envelope"></i>
 
-    </div>
+                        Correo electrónico
 
+                    </label>
 
-    <div class="form-group">
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="ejemplo@gmail.com"
+                        required
+                    >
 
-        <label for="mensaje">
-            <i class="fa-solid fa-comment-medical"></i>
-            Motivo de la consulta
-        </label>
-
-        <textarea
-            id="mensaje"
-            rows="5"
-            placeholder="Contanos brevemente el motivo de tu consulta..."
-            required
-        ></textarea>
-
-    </div>
+                </div>
 
 
-    <button type="submit" id="boton">
+                <div class="form-group">
 
-        <i class="fa-solid fa-paper-plane"></i>
+                    <label for="telefono">
 
-        Enviar consulta
+                        <i class="fa-solid fa-phone"></i>
 
-    </button>
+                        Teléfono
 
+                    </label>
 
-    <div id="estado"></div>
+                    <input
+                        type="tel"
+                        id="telefono"
+                        placeholder="Ej. 2984 617668"
+                        required
+                    >
 
-</form>
-
-
-<div class="form-footer">
-
-    <i class="fa-solid fa-shield-heart"></i>
-
-    Tus datos serán utilizados únicamente para responder tu consulta.
-
-</div>
+                </div>
 
 
-</div>
+                <div class="form-group">
 
-</section>
+                    <label for="mensaje">
 
+                        <i class="fa-solid fa-comment-medical"></i>
 
-<!-- =========================
-     FOOTER
-========================== -->
+                        Motivo de la consulta
 
-<footer>
+                    </label>
 
-    <p>
-        © 2026 Clínica Médica - Choele Choel, Río Negro
-    </p>
+                    <textarea
+                        id="mensaje"
+                        rows="5"
+                        placeholder="Contanos brevemente el motivo de tu consulta..."
+                        required
+                    ></textarea>
 
-    <p>
-        Atención médica con calidez y compromiso.
-    </p>
-
-</footer>
+                </div>
 
 
-<!-- JAVASCRIPT -->
+                <button type="submit" id="boton">
 
-<script src="java.js"></script>
+                    <i class="fa-solid fa-paper-plane"></i>
+
+                    Enviar consulta
+
+                </button>
+
+
+                <div id="estado"></div>
+
+            </form>
+
+
+            <div class="form-footer">
+
+                <i class="fa-solid fa-shield-heart"></i>
+
+                Tus datos serán utilizados únicamente para responder tu consulta.
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <p>
+            © 2026 Clínica Médica - Choele Choel, Río Negro
+        </p>
+
+        <p>
+            Atención médica con calidez y compromiso.
+        </p>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="java.js"></script>
 
 </body>
 
