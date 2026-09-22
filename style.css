@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <title>Clínica Médica en Choele Choel | Especialidades y Urgencias 24/7</title>
+
+    <meta name="description"
+        content="Centro médico de alta resolución en Choele Choel, Río Negro. Especialistas en medicina general, cardiología, pediatría, odontología y guardia 24/7. ¡Reservá tu cita!">
+
+    <link rel="canonical" href="https://tuusuario.github.io/tu-repositorio/">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Clínica Médica en Choele Choel | Cuidado de Alta Resolución">
+
+    <meta property="og:description"
+        content="Atención médica especializada, laboratorio propio y guardia 24/7 en Choele Choel, Río Negro.">
+
+    <meta property="og:image" content="https://tuusuario.github.io/tu-repositorio/img/clinica.png">
+
+    <meta property="og:url" content="https://tuusuario.github.io/tu-repositorio/">
+
+    <meta property="og:type" content="website">
+
+    <!-- Datos estructurados -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "MedicalClinic",
+        "name": "Clínica Médica",
+        "image": "https://tuusuario.github.io/tu-repositorio/img/clinica.png",
+        "url": "https://tuusuario.github.io/tu-repositorio/",
+        "telephone": "+542984617668",
+
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Avellaneda 1100",
+            "addressLocality": "Choele Choel",
+            "addressRegion": "Río Negro",
+            "addressCountry": "AR"
+        },
+
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": -39.2731,
+            "longitude": -65.6675
+        },
+
+        "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ],
+            "opens": "00:00",
+            "closes": "23:59"
+        },
+
+        "medicalSpecialty": [
+            "GeneralSurgery",
+            "Cardiology",
+            "Pediatric",
+            "Dermatology"
+        ]
+    }
+    </script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+    <!-- =========================
+         NAVEGACIÓN
+    ========================== -->
+
+    <header>
+
+        <div class="logo">
+
+            <i class="fa-solid fa-heart-pulse"></i>
+
+            Clínica Médica
+
+        </div>
+
+
+        <nav>
+
+            <a href="#about">Nosotros</a>
+
+            <a href="#services">Servicios</a>
+
+            <a href="#media">Multimedia</a>
+
+            <a href="#faq">Preguntas frecuentes</a>
+
+            <a href="#location">Ubicación</a>
+
+            <a href="#contact">Contacto</a>
+
+            <a href="#consulta">Solicitar consulta</a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- =========================
+         HERO
+    ========================== -->
+
+    <section class="hero">
+
+        <div class="hero-text">
+
+            <h1>
+                Cuidado médico de avanzada con
+                <span>calidez humana</span>
+            </h1>
+
+            <p>
+                En Clínica Médica tenemos profesionales
+                especializados para cuidar de vos y de tu familia.
+            </p>
+
+
+            <div class="audio-player-card">
+
+                <h4>
+                    <i class="fa-solid fa-volume-high"></i>
+                    Mensaje de bienvenida
+                </h4>
+
+                <audio controls>
+
+                    <source src="Audio/Hospital Privado_ más humanos, más profesionales_128k.mp3" type="audio/mpeg">
+
+                    Tu navegador no soporta el reproductor de audio.
+
+                </audio>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-media">
+
+            <img src="img/clinica.png" alt="Instalaciones modernas de la Clínica Médica en Choele Choel">
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         NOSOTROS
+    ========================== -->
+
+    <section class="about" id="about">
+
+        <h2 class="section-title">
+            Sobre Clínica Médica
+        </h2>
+
+        <p class="section-subtitle">
+            Más de 75 años liderando la medicina preventiva y especializada
+        </p>
+
+
+        <div class="about-content">
+
+            <div class="about-text">
+
+                <p>
+                    Somos un centro médico de alta resolución diseñado
+                    para brindar una experiencia integral de salud.
+                    Nuestras instalaciones cuentan con tecnología de punta
+                    asistida por algoritmos médicos inteligentes,
+                    reduciendo los tiempos de espera y optimizando
+                    la precisión diagnóstica.
+                </p>
+
+
+                <div class="about-features">
+
+                    <div class="feature-item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        Atención 24/7
+                    </div>
+
+                    <div class="feature-item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        Laboratorio Propio
+                    </div>
+
+                    <div class="feature-item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        Especialistas Certificados
+                    </div>
+
+                    <div class="feature-item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        Diagnósticos Digitales
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SERVICIOS
+    ========================== -->
+
+    <section class="services" id="services">
+
+        <h2 class="section-title">
+            Nuestros Servicios Médicos
+        </h2>
+
+        <p class="section-subtitle">
+            Especialidades dedicadas a cada aspecto de tu bienestar
+        </p>
+
+
+        <div class="services-grid">
+
+
+            <!-- Medicina General -->
+
+            <div class="service-card">
+
+                <img src="https://images.unsplash.com/photo-1666214280557-f1b5022eb634?auto=format&fit=crop&w=600&q=80"
+                    alt="Consultorio de Medicina General y chequeos preventivos">
+
+                <div class="service-info">
+
+                    <h3>
+                        <i class="fa-solid fa-stethoscope"></i>
+                        Medicina General
+                    </h3>
+
+                    <p>
+                        Evaluación clínica completa, chequeos preventivos
+                        y control de enfermedades crónicas.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Cardiología -->
+
+            <div class="service-card">
+
+                <img src="https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?auto=format&fit=crop&w=600&q=80"
+                    alt="Especialistas en Cardiología y estudios cardiovasculares">
+
+                <div class="service-info">
+
+                    <h3>
+                        <i class="fa-solid fa-heart-pulse"></i>
+                        Cardiología
+                    </h3>
+
+                    <p>
+                        Electrocardiogramas, ecocardiografías y monitoreo
+                        integral de la salud cardiovascular.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Pediatría -->
+
+            <div class="service-card">
+
+                <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=600&q=80"
+                    alt="Área de Pediatría Integral para el cuidado infantil">
+
+                <div class="service-info">
+
+                    <h3>
+                        <i class="fa-solid fa-baby"></i>
+                        Pediatría
+                    </h3>
+
+                    <p>
+                        Acompañamiento en el crecimiento, control de niño
+                        sano y esquema completo de vacunación.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Odontología -->
+
+            <div class="service-card">
+
+                <img src="https://images.unsplash.com/photo-1588776814546-daab30f310ce?auto=format&fit=crop&w=600&q=80"
+                    alt="Consultorio de Odontología Especializada">
+
+                <div class="service-info">
+
+                    <h3>
+                        <i class="fa-solid fa-tooth"></i>
+                        Odontología
+                    </h3>
+
+                    <p>
+                        Ortodoncia, estética dental, implantes y profilaxis
+                        con tecnología ultrasónica.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Dermatología -->
+
+            <div class="service-card">
+
+                <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=600&q=80"
+                    alt="Tratamientos de Dermatología Clínica y estética">
+
+                <div class="service-info">
+
+                    <h3>
+                        <i class="fa-solid fa-hand-dots"></i>
+                        Dermatología
+                    </h3>
+
+                    <p>
+                        Cuidado de la piel, control de lunares,
+                        tratamientos antiacné y terapias dermatológicas.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Traumatología -->
+
+            <div class="service-card">
+
+                <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=600&q=80"
+                    alt="Servicio de Traumatología y rehabilitación física">
+
+                <div class="service-info">
+
+                    <h3>
+                        <i class="fa-solid fa-bone"></i>
+                        Traumatología
+                    </h3>
+
+                    <p>
+                        Rehabilitación funcional, tratamiento de lesiones
+                        deportivas y fisioterapia integral.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         VIDEO
+    ========================== -->
+
+    <section class="video-section" id="media">
+
+        <h2 class="section-title">
+            Conocé Nuestras Instalaciones
+        </h2>
+
+        <p class="section-subtitle">
+            Recorrido en video de nuestra infraestructura médica
+        </p>
+
+
+        <div class="video-wrapper">
+
+            <video controls
+                poster="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=800&q=80">
+
+                <source src="videos/HOSPITAL MEDICAL STAFF DOCTORS CORRIDOR 4K.mp4" type="video/mp4">
+
+                Tu navegador no soporta el formato de video.
+
+            </video>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         PREGUNTAS FRECUENTES
+    ========================== -->
+
+    <section class="faq-section" id="faq">
+
+        <h2 class="section-title">
+            Preguntas Frecuentes
+        </h2>
+
+        <p class="section-subtitle">
+            Encontrá respuestas a las consultas más frecuentes
+        </p>
+
+
+        <div class="faq-container">
+
+            <div id="faq-loading" class="faq-loading">
+
+                <i class="fa-solid fa-spinner fa-spin"></i>
+
+                Cargando preguntas frecuentes...
+
+            </div>
+
+
+            <div id="faq-list" class="faq-list"></div>
+
+
+            <div id="faq-error" class="faq-error">
+
+                No se pudieron cargar las preguntas frecuentes.
+                Intentá nuevamente más tarde.
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         UBICACIÓN
+    ========================== -->
+
+    <section class="location" id="location">
+
+        <h2 class="section-title">
+            Nuestra Ubicación
+        </h2>
+
+        <p class="section-subtitle">
+            Avellaneda 1100, Choele Choel, Río Negro
+        </p>
+
+
+        <div class="map-container">
+
+            <iframe src="https://www.google.com/maps?q=Avellaneda+1100,+Choele+Choel,+Río+Negro,+Argentina&output=embed"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         CONTACTO
+    ========================== -->
+
+    <section class="contact" id="contact">
+
+        <h2 class="section-title">
+            Canales de Atención Directa
+        </h2>
+
+        <p class="section-subtitle">
+            Comunicate con nuestro equipo
+        </p>
+
+
+        <div class="contact-channels">
+
+
+            <!-- WhatsApp -->
+
+            <a href="https://wa.me/542984617668" target="_blank" class="contact-card whatsapp">
+
+                <i class="fa-brands fa-whatsapp"></i>
+
+                <h3>WhatsApp</h3>
+
+                <p>2984 617668</p>
+
+                <span>Chateá con un asesor</span>
+
+            </a>
+
+
+            <!-- Teléfono -->
+
+            <a href="tel:2984617668" class="contact-card phone">
+
+                <i class="fa-solid fa-phone"></i>
+
+                <h3>Llamanos</h3>
+
+                <p>2984 617668</p>
+
+                <span>Central de atención</span>
+
+            </a>
+
+
+            <!-- Correo -->
+
+            <a href="mailto:citas@clinicamedica.com" class="contact-card email">
+
+                <i class="fa-solid fa-envelope"></i>
+
+                <h3>Correo</h3>
+
+                <p>citas@clinicamedica.com</p>
+
+                <span>Enviá tu consulta</span>
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         FORMULARIO
+    ========================== -->
+
+    <section class="form-section" id="consulta">
+
+        <div class="form-container">
+
+
+            <div class="form-header">
+
+                <div class="form-icon">
+
+                    <i class="fa-solid fa-calendar-check"></i>
+
+                </div>
+
+
+                <h2>
+                    Solicitá tu consulta
+                </h2>
+
+
+                <p>
+                    Completá el siguiente formulario y nuestro equipo
+                    se pondrá en contacto con vos.
+                </p>
+
+            </div>
+
+
+            <form id="formulario">
+
+                <div class="form-group">
+
+                    <label for="nombre">
+
+                        <i class="fa-solid fa-user"></i>
+
+                        Nombre y apellido
+
+                    </label>
+
+                    <input
+                        type="text"
+                        id="nombre"
+                        placeholder="Ingresá tu nombre y apellido"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="email">
+
+                        <i class="fa-solid fa-envelope"></i>
+
+                        Correo electrónico
+
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="ejemplo@gmail.com"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="telefono">
+
+                        <i class="fa-solid fa-phone"></i>
+
+                        Teléfono
+
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="telefono"
+                        placeholder="Ej. 2984 617668"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="mensaje">
+
+                        <i class="fa-solid fa-comment-medical"></i>
+
+                        Motivo de la consulta
+
+                    </label>
+
+                    <textarea
+                        id="mensaje"
+                        rows="5"
+                        placeholder="Contanos brevemente el motivo de tu consulta..."
+                        required
+                    ></textarea>
+
+                </div>
+
+
+                <button type="submit" id="boton">
+
+                    <i class="fa-solid fa-paper-plane"></i>
+
+                    Enviar consulta
+
+                </button>
+
+
+                <div id="estado"></div>
+
+            </form>
+
+
+            <div class="form-footer">
+
+                <i class="fa-solid fa-shield-heart"></i>
+
+                Tus datos serán utilizados únicamente para responder tu consulta.
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <p>
+            © 2026 Clínica Médica - Choele Choel, Río Negro
+        </p>
+
+        <p>
+            Atención médica con calidez y compromiso.
+        </p>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="java.js"></script>
+
+</body>
+
+</html>
